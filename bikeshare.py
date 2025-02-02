@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
-# Dictionary containing city data file names
+# Dictionary containing city data file names.
 CITY_DATA = {
     'chicago': 'chicago.csv',
     'new york city': 'new_york_city.csv',
@@ -13,7 +13,7 @@ def get_filters():
    
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # Get user input for city
+    # Get user input for city.
     while True:
         city = input("Choose a city: Chicago, New York City, or Washington: ").lower()
         if city in CITY_DATA:
